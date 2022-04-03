@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>alphabet</title>
+</head>
+
+<body>
+	<script>
+
+		var alphabet = "abcdefghijklmnoprstuvwxyz";
+		var randomString = "";
+
+		while (randomString.length < 20) {
+			randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+		}
+
+		console.log(randomString);
+
+	</script>	
+</body>
+</html>
